@@ -32,10 +32,10 @@ def line_chack_dote():
 def readline___Public_Xml():
 	logo()
 	print (' [*]=============================================')
-	print(" [1] Start Cracking  ")
+	print(" [1] Start File Crack  ")
 	print(" [2] Create Supper File [ Unlamented ]")
-	print(" [3] Feedback")
-	print(" [4] YouTube ")
+	print(" [3] Random Crack")
+	print(" [4] Public Crack ")
 	print (" [5] Login Other Token")
 	print (" [0] Exit Programing")
 	print (' [*]=============================================')
@@ -493,8 +493,11 @@ banner="""\033[1;37m
  [*]=============================================
     Author   : IMTIAZ AKING
     Facebook : https://facebook.com/Imtiaz.Aking
-    Team     : Somi + Zahid
+    ANOTHER  : AKING110
     Connect  : 03237528063
+    Status   : Paid
+    Version  :1.2.4
+ 
  [*]=============================================
    \033[1;31m  Use (Flight) Airplane Mod For Speed Up \033[1;37m
  [*]============================================="""
