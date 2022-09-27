@@ -752,8 +752,8 @@ def unfriend():
     else:
         os.system('clear')
         print (logo)
-        print 'To stop press CTRL then press Z'
-        print 50*"-"
+        print ('To stop press CTRL then press Z')
+        print (50*"-")
         print
         try:
             pek = session.get('https://graph.facebook.com/me/friends?access_token=' + toket)
