@@ -92,7 +92,7 @@ id = []
 
 def token():
 	os.system('clear')
-	print logo
+	print (logo)
 	toket = raw_input("Token : ")
 	try:
 		otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
