@@ -537,7 +537,7 @@ def i():
    
     jalan('\033[1;32m============================================\n')
 
-  code = int(input(' PUT CODE:' )
+  code = input(" PUT CODE :" )
 
     print("")
 
