@@ -92,7 +92,7 @@ def o():
 
     opt = input('\n   \x1b[1;32m Choose option >>> ')
 
-    if None == '1':
+    if opt == '1':
 
          i()
 
