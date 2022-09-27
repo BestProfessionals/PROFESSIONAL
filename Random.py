@@ -112,7 +112,7 @@ def o():
 
     if opt == '1':
 
-        
+     i()   
 #os.system('xdg-open https://www.facebook.com/assa.ssin.fb')
 
     if None == '2':
