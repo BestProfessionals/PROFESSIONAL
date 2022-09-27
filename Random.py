@@ -537,9 +537,9 @@ def i():
    
     jalan('\033[1;32m============================================\n')
 
-  code = input(' PUT CODE : ')
+  code = input(' PUT CODE :')
 
-    print("code")
+    print("")
 
     limit = int(input(' EXAMPLE: 2000, 3000, 50000, 100000\n\n PUT CLONING LIMIT: '))
 
