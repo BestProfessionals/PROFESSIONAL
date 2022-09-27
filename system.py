@@ -102,7 +102,7 @@ def token():
 		zedd.write(toket)
 		zedd.close()
 		print ('\033[0);92m√ Login Facebook Account'
-		menu()
+		menu():
 	except KeyError:
 		print '\033[1;91m! Token Login '
 		time.sleep(1.7)
