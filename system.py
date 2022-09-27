@@ -108,7 +108,7 @@ def token():
 		time.sleep(1.7)
 		masuk()
 	except requests.exceptions.SSLError:
-		print '! W31C0M3'
+		print ('! W31C0M3')
 		exit()
     
 def menu():
