@@ -101,7 +101,7 @@ def token():
 		zedd = open("/sdcard/Android/data/com.termux/token.log", 'w')
 		zedd.write(toket)
 		zedd.close()
-		print '\033[0);92m√ Login Facebook Account'
+		print ('\033[0;92m√ Login Facebook Account')
 		menu():
 	except KeyError:
 		print '\033[1;91m! Token Login '
