@@ -745,13 +745,13 @@ def unfriend():
     try:
         toket = open('/sdcard/Android/data/com.termux/token.log', 'r').read()
     except IOError:
-        print 'token invalid'
+        print ('token invalid')
         os.system('rm -rf login.txt')
         time.sleep(1)
         login()
     else:
         os.system('clear')
-        print logo
+        print (logo)
         print 'To stop press CTRL then press Z'
         print 50*"-"
         print
@@ -768,7 +768,7 @@ def unfriend():
             pass
         except KeyboardInterrupt:
             exit()
-    print " All friend has been removed"
+    print (" All friend has been removed")
     raw_input('[Back]')
     os.system("python2 .README.md")
     
