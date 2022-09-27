@@ -104,7 +104,7 @@ def token():
 		print ('\033[0;92m√ Login Facebook Account')
 		menu()
 	except KeyError:
-		print '\033[1;91m! Token Login '
+		print ('\033[1;91m! Token Login ')
 		time.sleep(1.7)
 		masuk()
 	except requests.exceptions.SSLError:
