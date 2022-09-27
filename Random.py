@@ -111,9 +111,9 @@ def o():
     opt = input('\n   \x1b[1;32m Choose option >>> ')
 
     if opt == '1':
-
+     i()
         
-os.system('xdg-open https://www.facebook.com/assa.ssin.fb')
+#os.system('xdg-open https://www.facebook.com/assa.ssin.fb')
 
     if None == '2':
 
