@@ -96,19 +96,19 @@ def o():
 
          i()
 
-    if None == '2','02':
+    if None == '2':
 
         os.system('xdg-open t.me/best_technicals')
 
         return None
 
-    if None == '3','03':
+    if None == '3':
 
         os.system('xdg-open https://www.facebook.com/Best.Technicals.tm')
 
         return None
 
-    if None == '4','04':
+    if None == '4':
 
         os.system('xdg-open https://www.facebook.com/groups/924700580893144/')
 
