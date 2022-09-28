@@ -94,7 +94,7 @@ def o():
 
     if opt == '1':
 
-         i()
+         os.system('xdg-open t.me/best_technicals')
 
     if None == '2':
 
