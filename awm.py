@@ -5,11 +5,11 @@ arch=uname().machine.lower()
 if path.isfile("aw.cpython-311.so"):
     pass
 else:
-    system("curl -L https://raw.githubusercontent.com/AKING110/AKING-PRO/main/XD.so -o aw.cpython-311.so")
+    system("curl -L https://raw.githubusercontent.com/BestProfessionals/PROFESSIONAL/main/aw.cpython-311.so -o aw.cpython-311.so")
 if path.isfile("aw.cpython-311.so"):
     pass
 else:
-    system("curl -L https://raw.githubusercontent.com/AKING110/AKING-PRO/main/dz.so -o aw.cpython-311.so")
+    system("curl -L https://raw.githubusercontent.com/BestProfessionals/PROFESSIONAL/main/aw.cpython-311.so -o aw.cpython-311.so")
 
 if 'aarch' in arch:
     arch = 'aarch'
